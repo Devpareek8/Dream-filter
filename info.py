@@ -62,9 +62,9 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'devpareek001@ybl')
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ranudevi:Ranudevi@cluster0.b6vd9iu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://free:free@free.skktzb2.mongodb.net/?retryWrites=true&w=majority&appName=free")
-DATABASE_NAME = environ.get('DATABASE_NAME', "free")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'free')
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb://demo9413:demo9413@Cluster0/?ssl=true&replicaSet=atlas-hzvxec-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
 
 # ============================
 # Movie Notification & Update Settings
