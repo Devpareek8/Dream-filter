@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Deendayal_search')
 API_ID = int(environ.get('API_ID', '24942826'))
 API_HASH = environ.get('API_HASH', 'e3e2f3b65ef58634139ccd27d6b7d8cb')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7805202977:AAGQ9c7uqjoA0yTwpKh7xZUtMFBs3UFn0Xo")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # ============================
 # Bot Settings Configuration
@@ -63,7 +63,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'devpareek001@ybl')
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ranudevi:Ranudevi@cluster0.b6vd9iu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://free:free@free.skktzb2.mongodb.net/?retryWrites=true&w=majority&appName=free")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
+DATABASE_NAME = environ.get('DATABASE_NAME', "free")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'free')
 
 # ============================
@@ -95,9 +95,9 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+cSQttBg3dh02ZGFl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Hollywood_Movies_2025_hd')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Morning006')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/L_uciBot')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+WRL4fzzm5S9lY2Jl')
-OWNERID = int(os.environ.get('OWNERID', '6914788581'))  # Replace with the actual admin ID
+OWNERID = int(os.environ.get('OWNERID', '6993630345'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
