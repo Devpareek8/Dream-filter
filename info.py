@@ -28,7 +28,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7805202977:AAGQ9c7uqjoA0yTwpKh7xZUtMFBs3UF
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://graph.org/file/1227f8a314530d91e5a9b-289b2534339edb24fb.jpg https://graph.org/file/764ce9eef21ee2a31c426-4f3f11c987af3e04d4.jpg https://graph.org/file/5597335f7dc05be9f90e6-ee953217244a2a9049.jpg https://graph.org/file/ccbfdebf1e2a151a69cd6-d789905aca0c5e3715.jpg https://graph.org/file/58cfe114fbb7d77cfcbe8-6e4ff50f2aa69022e1.jpg https://graph.org/file/5939025a779ace9530a04-a3e06357d75c531770.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/60e8a622b14796e4448ce.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -62,9 +62,9 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'devpareek001@ybl')
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ranudevi:Ranudevi@cluster0.b6vd9iu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Dec:Dec@cluster0.b6vd9iu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://free:free@free.skktzb2.mongodb.net/?retryWrites=true&w=majority&appName=free")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'free')
 
 # ============================
 # Movie Notification & Update Settings
